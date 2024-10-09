@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  height: 31.25rem;
+  width: 31.25rem;
+  grid-template-columns: 11.25rem 11.25rem;
+  grid-template-rows: 11.25rem 11.25rem;
+  grid-gap: 1.56rem;
+  margin: auto;
+}
+
+.btn {
+  border: 0.45rem solid black;
+  border-radius: 20%;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.green {
+  background-color: chartreuse;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: aqua;
+}
+
+.flash {
+  background-color: white;
+}
